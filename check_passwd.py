@@ -55,5 +55,3 @@ password_file.close()
 host_file.close()
 
 print "\n\t......ending......\n"
-
-
