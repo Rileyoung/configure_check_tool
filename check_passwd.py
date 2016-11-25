@@ -1,4 +1,13 @@
-#-*- coding: utf-8 _*_
+# Script Name	: Remote_execute_linux_command.py
+# Author	    : Riley Young
+# Created		: 25th November 2016
+# Last Modified	:
+# Version		: 1.0
+# Modifications	:
+
+# Description	:check remote host's (linux) weak password.
+
+#-*- coding: utf-8 -*-
 #!/usr/bin/python
 import re, os, sys
 import ConfigParser
