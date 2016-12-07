@@ -1,8 +1,8 @@
-# Script Name	: Remote_execute_linux_command.py
-# Author	    : Riley Young
-# Created		: 25th November 2016
+# Script Name	: check_password.py
+# Author	: Riley Young
+# Created	: 25th November 2016
 # Last Modified	:
-# Version		: 1.0
+# Version	: 1.0
 # Modifications	:
 
 # Description	:check remote host's (linux) weak password.
@@ -17,28 +17,28 @@ import paramiko
 cf=ConfigParser.ConfigParser()
 cf.read("test.conf")
 port = cf.getint("hostn", "db_port")
-username = cf.get("hostn","db_user")
+username = cf.get("hostn", "db_user")
 
-host_file=open("host.txt","r")
+host_file=open("host.txt", "r")
 host_lines=host_file.readlines()
 host_counter=0
 
-password_file=open("passwd.txt","r")
+password_file=open("passwd.txt", "r")
 password_lines = password_file.readlines()
 
 print "\n\t......starting......"
 
 for host_line in host_lines:
-    password_counter=0
-    host_counter=host_counter+1
-    host_line=host_line.strip()
+    password_counter = 0
+    host_counter = host_counter+1
+    host_line = host_line.strip()
     #password=line
-    hostname=host_line
+    hostname = host_line
     print "\n\t Check IP：\t %s\n"%(hostname)
     for password_line in password_lines:
-        password_counter=password_counter+1
-        password_line=password_line.strip()
-        password=password_line
+        password_counter = password_counter+1
+        password_line = password_line.strip()
+        password = password_line
 
         client = paramiko.SSHClient()
         client.set_missing_host_key_policy(paramiko.AutoAddPolicy())

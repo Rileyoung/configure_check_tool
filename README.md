@@ -1,1 +1,1 @@
-read me
+weak password check
