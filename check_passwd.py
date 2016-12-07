@@ -7,7 +7,7 @@
 
 # Description	:check remote host's (linux) weak password.
 
-# Copyright (c) 2016 ...
+# Copyright (c) 2016 Gangbiao Liu.All rights reserved. 
 # Permission to intall, use, copy, modify, and distribute this software for any
 # but evil purpose with or without fee is hereby granted, provided that the above
 # copyright notice and this permission notice appear in all copies.
