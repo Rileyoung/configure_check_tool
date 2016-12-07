@@ -1,4 +1,4 @@
-# Script Name	: Remote_execute_linux_command.py
+# Script Name	: check_password.py
 # Author	: Riley Young
 # Created	: 25th November 2016
 # Last Modified	:
