@@ -1,11 +1,16 @@
 # Script Name	: check_password.py
-# Author	: Riley Young
+# Author	: Riley Young, Gangbiao Liu
 # Created	: 25th November 2016
 # Last Modified	:
-# Version	: 1.0
+# Version	: 1.01
 # Modifications	:
 
 # Description	:check remote host's (linux) weak password.
+
+# Copyright (c) 2016 ...
+# Permission to intall, use, copy, modify, and distribute this software for any
+# but evil purpose with or without fee is hereby granted, provided that the above
+# copyright notice and this permission notice appear in all copies.
 
 #-*- coding: utf-8 -*-
 #!/usr/bin/python
